@@ -1,4 +1,5 @@
-# pylint: disable=missing-docstring
+"""Simple greeting module."""
 
-def hello_world():
-    pass  # YOUR CODE HERE
+def hello_world() -> str:
+    """Return a greeting string."""
+    return "Hello from hello.py"
